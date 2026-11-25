@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "main-capability",
+  "description": "Permessi core per la finestra principale. Il sidecar viene avviato esclusivamente da Rust.",
+  "windows": ["main"],
+  "permissions": ["core:default", "core:window:allow-destroy"]
+}
